@@ -17,6 +17,7 @@ export default function RootLayout({
     { href: '/', label: 'Home' },
     { href: '/docs', label: 'Docs' },
     { href: '/products', label: 'Products' },
+    { href: '/dashboard', label: 'dashboard' },
   ];
   const pathname = usePathname();
   return (
